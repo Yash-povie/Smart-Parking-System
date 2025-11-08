@@ -1,0 +1,25 @@
+# Minimal requirements without Pillow for initial setup
+# Use this if Pillow installation fails on Python 3.13
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+sqlalchemy>=2.0.23
+alembic>=1.12.1
+psycopg2-binary>=2.9.9
+redis>=5.0.1
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+python-multipart>=0.0.6
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+python-dotenv>=1.0.0
+websockets>=12.0
+aiofiles>=23.2.1
+# pillow>=10.3.0  # Install separately if needed
+# numpy>=1.26.0  # Install separately if needed
+# opencv-python>=4.8.0  # Install separately if needed
+requests>=2.31.0
+stripe>=7.8.0
+email-validator>=2.1.0
+bcrypt>=4.1.2
+
+
